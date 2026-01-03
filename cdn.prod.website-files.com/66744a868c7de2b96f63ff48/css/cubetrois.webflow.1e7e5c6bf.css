@@ -345,6 +345,7 @@ pre.w-code-block code {
 }
 
 .w-webflow-badge {
+  display: none !important;
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
@@ -2055,24 +2056,24 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --font--body: Geist, sans-serif;
-  --green-opacity--green-dk-73: #013d43ba;
+  --green-opacity--green-dk-73: #0066ccba;
   --font--heading: Ppmori, sans-serif;
-  --green--green-bg: #e6faf3;
-  --green-opacity--green-dk-100: #013d43;
+  --green--green-bg: #e6f3ff;
+  --green-opacity--green-dk-100: #0066cc;
   --neutral--white: white;
-  --green--green-border: #c7e9e8;
-  --green--green-inner: #cef0ef;
-  --green--green-neutral: #aeccc1;
-  --green-opacity--green-dk-50: #013d4380;
-  --green-opacity--green-dk-20: #013d4333;
-  --green-opacity--green-dk-8: #013d4314;
-  --green-opacity--green-dk-5: #013d430d;
-  --green-opacity--green-dk-15: #013d4326;
-  --green--green-st: #27ae60;
-  --green-opacity--green-dk-70: #013d43b3;
-  --green-opacity--green-dk-40: #013d4366;
-  --green-opacity--green-dk-25: #013d4340;
-  --green-opacity--green-dk-2: #013d4305;
+  --green--green-border: #c7e0ff;
+  --green--green-inner: #cfe0ff;
+  --green--green-neutral: #aeccff;
+  --green-opacity--green-dk-50: #0066cc80;
+  --green-opacity--green-dk-20: #0066cc33;
+  --green-opacity--green-dk-8: #0066cc14;
+  --green-opacity--green-dk-5: #0066cc0d;
+  --green-opacity--green-dk-15: #0066cc26;
+  --green--green-st: #0066cc;
+  --green-opacity--green-dk-70: #0066ccb3;
+  --green-opacity--green-dk-40: #0066cc66;
+  --green-opacity--green-dk-25: #0066cc40;
+  --green-opacity--green-dk-2: #0066cc05;
 }
 
 .w-layout-grid {
@@ -3501,8 +3502,8 @@ a {
 }
 
 .process-tag.green {
-  color: #27ae60;
-  background-color: #27ae601a;
+  color: #0066cc;
+  background-color: #0066cc1a;
 }
 
 .icon-16 {
@@ -3568,7 +3569,7 @@ a {
 }
 
 .process-asset-line-gradient {
-  background-image: linear-gradient(90deg, #013d4300, var(--green-opacity--green-dk-100));
+  background-image: linear-gradient(90deg, #0066cc00, var(--green-opacity--green-dk-100));
   width: 20px;
   height: 1px;
   position: absolute;
@@ -3675,7 +3676,7 @@ a {
   top: 40px;
   left: 50%;
   transform: translate(-50%);
-  box-shadow: 0 10px 50px #013d4340, 0 10px 30.4px #00000026;
+  box-shadow: 0 10px 50px #0066cc40, 0 10px 30.4px #00000026;
 }
 
 .parcours-content {
@@ -4043,7 +4044,7 @@ a {
 
 .step-fluid-dot-inner {
   z-index: 1;
-  background-color: #27ae60;
+  background-color: #0066cc;
   border-radius: 99px;
   width: 5px;
   min-width: 5px;
@@ -4838,7 +4839,7 @@ a {
 }
 
 .hero_asset-dot {
-  background-color: #27ae6033;
+  background-color: #0066cc33;
   border-radius: 999px;
   justify-content: center;
   align-items: center;
@@ -4850,7 +4851,7 @@ a {
 }
 
 .hero_asset-dot-inner {
-  background-color: #27ae60;
+  background-color: #0066cc;
   border-radius: 999px;
   width: 5px;
   height: 5px;
@@ -5062,7 +5063,7 @@ a {
   }
 
   .process-asset-line-gradient {
-    background-image: linear-gradient(180deg, #013d4300, var(--green-opacity--green-dk-100));
+    background-image: linear-gradient(180deg, #0066cc00, var(--green-opacity--green-dk-100));
     width: 1px;
     height: 20px;
   }
